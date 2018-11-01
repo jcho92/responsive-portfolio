@@ -125,8 +125,8 @@ div.column{
 span.cat-table{
     position: relative;
     top: 80px;
-    background-color: #4aaaa5;
-    padding: 10px 66.5px;
+    background-color: #dddddd;
+    padding: 10px 9px;
     
 }
 @media screen and (max-width: 980px) {
