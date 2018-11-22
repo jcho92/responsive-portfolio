@@ -382,6 +382,9 @@ td{
 .gitA:hover{
     color: lightblue;
 }
+.contact{
+    color: #000000;
+}
 
 /* @media screen and (max-width: 980px) {
     body {
