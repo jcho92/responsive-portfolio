@@ -1,48 +1,368 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>My html page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="main.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|K2D" rel="stylesheet">
+
+
+
 </head>
+
 <body>
 
-<div class="header">
+    <div class="header">
         <ul class="nav">
             <li class="Name"><a href="index.html">(Chun) John Cho</a></li>
-            <a class="heading" href="index.html"><li class="header">About</li></a>
-            <a class="heading" href="portfolio.html"> <li class="header">Portfolio</li></a>
-            <a class="heading" href="contact.html"><li class="header">Contact</li></a>       
-        </ul> 
-</div>
+            <a class="heading" href="index.html">
+                <li class="header">About</li>
+            </a>
+            <a class="heading" href="#portfolio">
+                <li class="header">Portfolio</li>
+            </a>
+            <a class="heading" href="#contact">
+                <li class="header">Contact</li>
+            </a>
+        </ul>
+    </div>
 
-<div class="body"> 
-    <h2>About Me</h2>
-    <hr>
-    <p><img style="float:left; padding: 0px 10px;"
-    src="https://cdn.tutsplus.com/net/uploads/legacy/958_placeholders/placehold.gif">Lorem
-    ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-    incididunt ut labore et dolore magna aliqua. Eget nulla facilisi etiam
-    dignissim diam quis enim. Phasellus egestas tellus rutrum tellus
-    pellentesque eu tincidunt. Molestie nunc non blandit massa enim. Tempus urna
-    et pharetra pharetra massa massa ultricies mi. Placerat vestibulum lectus
-    mauris ultrices eros. Sagittis vitae et leo duis ut diam quam nulla
-    porttitor. Sed adipiscing diam donec adipiscing tristique risus. Est
-    placerat in egestas erat. Iaculis at erat pellentesque adipiscing commodo.
-    Purus faucibus ornare suspendisse sed nisi lacus sed viverra. Tincidunt nunc
-    pulvinar sapien et. Pretium aenean pharetra magna ac placerat. A cras semper
-    auctor neque vitae tempus quam pellentesque nec. Aliquet porttitor lacus
-    luctus accumsan tortor posuere. Arcu dui vivamus arcu felis bibendum ut.
-    Arcu cursus euismod quis viverra. Suspendisse sed nisi lacus sed viverra
-    tellus in hac.
-</p>
-</div>
+    <div id="overlay"></div>
+    <div class="body-intro">
+        <div class="head-intro">
+
+            <h1 class="displayname">JOHN CHO</h1>
+            <h2 class="displayname">Portfolio</h2>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="body animate-box bounce-up">
+            <div class="innerbody">
+                <h2>About Me</h2>
+                <hr>
+                <p><img style="float:left; padding: 0px 10px; width: 200px;" src="images/john.jpeg">Lorem
+                    ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Eget nulla facilisi etiam
+                    dignissim diam quis enim. Phasellus egestas tellus rutrum tellus
+                    pellentesque eu tincidunt. Molestie nunc non blandit massa enim. Tempus urna
+                    et pharetra pharetra massa massa ultricies mi. Placerat vestibulum lectus
+                    mauris ultrices eros. Sagittis vitae et leo duis ut diam quam nulla
+                    porttitor. Sed adipiscing diam donec adipiscing tristique risus. Est
+                    placerat in egestas erat. Iaculis at erat pellentesque adipiscing commodo.
+                    Purus faucibus ornare suspendisse sed nisi lacus sed viverra. Tincidunt nunc
+                    pulvinar sapien et. Pretium aenean pharetra magna ac placerat. A cras semper
+                    auctor neque vitae tempus quam pellentesque nec. Aliquet porttitor lacus
+                    luctus accumsan tortor posuere. Arcu dui vivamus arcu felis bibendum ut.
+                    Arcu cursus euismod quis viverra. Suspendisse sed nisi lacus sed viverra
+                    tellus in hac.ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Eget nulla facilisi etiam
+                    dignissim diam quis enim. Phasellus egestas tellus rutrum tellus
+                    pellentesque eu tincidunt. Molestie nunc non blandit massa enim. Tempus urna
+                    et pharetra pharetra massa massa ultricies mi. Placerat vestibulum lectus
+                    mauris ultrices eros. Sagittis vitae et leo duis ut diam quam nulla
+                    porttitor. Sed adipiscing diam donec adipiscing tristique risus. Est
+                    placerat in egestas erat. Iaculis at erat pellentesque adipiscing commodo.
+                    tellus in hac.
+                </p>
+            </div>
+        </div>
+        <div class="body animate-box bounce-up">
+            <div class="innerbody">
+                <h2>Skill Sets</h2>
+                <hr>
+                <table class="skillset">
+                    <tr>
+                        <td>
+                            <p>HTML</p>
+                        </td>
+                        <td>
+                            <p>CSS</p>
+                        </td>
+                        <td>
+                            <p>BOOTSRAP</p>
+                        </td>
+                        <td>
+                            <p>JAVASCRIPT</p>
+                        </td>
+                        <td>
+                            <p>JQUERY</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="check"> &#10004;</p>
+                        </td>
+                        <td>
+                            <p class="check"> &#10004;</p>
+                        </td>
+                        <td>
+                            <p class="check"> &#10004;</p>
+                        </td>
+                        <td>
+                            <p class="check"> &#10004;</p>
+                        </td>
+                        <td>
+                            <p class="check"> &#10004;</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <a name="portfolio"></a>
+
+        <div class="body-2 animate-box bounce-up">
+            <h2>Portfolio</h2>
+            <span class="project-demo"> Click for interactive demo</span>
+            <div class="slides-body">
+                <div class="mySlides">
+                    <div class="left-demo">
+                        <img id="trivia" class="demo" src="images/2018-11-20.png" style="width:100%">
+                    </div>
+                    <div class="right-demo">
+                        <p class="gitlink">Github link</p>
+                        <a class="gitA" href="https://github.com/jcho92/Trivia_game">https://github.com/jcho92/Trivia_game</a>
+
+                        <p class="gitlink">github demo link</p>
+                        <a class="gitA" href="https://jcho92.github.io/Trivia_game/">https://jcho92.github.io/Trivia_game/</a>
+
+                    </div>
+                    <h2>Trivia Game</h2>
+
+                    <p class="popup-text">Using javascript this trivia game trivia game to test the users
+                        knowledege of
+                        random
+                        facts in the world.
+                        The game is designed that a user is given only 10 seconds to select an answer, if he
+                        fails to
+                        select an
+                        answer within the time period then the quiz continues on logging the question as
+                        incomplete.</p>
+
+                </div>
+                <div class="mySlides">
+                    <div class="left-demo">
+                        <img id="starWars" class="demo" src="images/2018-11-20 (1).png" style="width:100%">
+                    </div>
+                    <div class="right-demo">
+                        <p class="gitlink">Github link</p>
+                        <a class="gitA" href="https://github.com/jcho92/star_wars_rpg_game">https://github.com/jcho92/star_wars_rpg_game</a>
+                        <p class="gitlink">github demo link</p>
+                        <a class="gitA" href="https://jcho92.github.io/star_wars_rpg_game/">https://jcho92.github.io/star_wars_rpg_game/</a>
+
+                    </div>
+                    <h2>Star Wars RPG</h2>
+                    <p class="popup-text">Take on the Galaxies greatest fleet commanders in this starwars RPG
+                        styled
+                        fleet
+                        battle game. Choose
+                        your character wisely, each character has their own strengths and weakness. but more
+                        importantly choose
+                        your opponents wisely! fighting the wrong one at the wrong time can cost your ship!</p>
+                </div>
+                <div class="mySlides">
+                    <div class="left-demo">
+                        <img id="starcraft" class="demo" src="images/2018-11-20 (2).png" style="width:100%">
+                    </div>
+
+                    <div class="right-demo">
+                        <p class="gitlink">Github link</p>
+                        <a class="gitA" href="https://github.com/jcho92/Word-Guess-Game">https://github.com/jcho92/Word-Guess-Game</a>
+                        <p class="gitlink">github demo link</p>
+                        <a class="gitA" href="https://jcho92.github.io/Word-Guess-Game/">https://jcho92.github.io/Word-Guess-Game/</a>
+                    </div>
+                    <h2>Starcraft Themed Word guess</h2>
+                    <p class="popup-text">Attempt to repair Thor as he is ravaged by the zerg swarmed, guess
+                        the word
+                        quickly
+                        before he is
+                        overwhelmed to reinitiate immortal protocol!</p>
+                </div>
+                <div class="mySlides">
+                    <div class="left-demo">
+                        <img id="giphy" class="demo" src="images/2018-11-20 (4).png" style="width:100%">
+                    </div>
+                    <div class="right-demo">
+                        <p class="gitlink">Github link</p>
+                        <a class="gitA" href="https://github.com/jcho92/giphy">https://github.com/jcho92/giphy</a>
+                        <p class="gitlink">github demo link</p>
+                        <a class="gitA" href="https://jcho92.github.io/giphy/">https://jcho92.github.io/giphy/</a>
+                    </div>
+                    <h2>Giphy Generator</h2>
+                    <p class="popup-text">Choose your favourite gifs and the generator will find those gifs for
+                        you!</p>
+                </div>
+                <button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+        </div>
+        <div id="modal">
+            <div id="triviaModal" class="modalMain">
+                <div class="close-div">
+                    <span class="close">&times;</span>
+                </div>
+
+                <iframe style="width:100%; height: 500px;" src="https://jcho92.github.io/Trivia_game/"></iframe>
+
+            </div>
+            <div id="starWarsModal" class="modalMain">
+                <div class="close-div">
+                    <span class="close">&times;</span>
+                </div>
+
+                <iframe style="width:100%; height:500px;" src="https://jcho92.github.io/star_wars_rpg_game/"></iframe>
+            </div>
+            <div id="starcraftModal" class="modalMain">
+                <div class="close-div">
+                    <span class="close">&times;</span>
+                </div>
+
+                <iframe style="width:100%; height:500px;" src="https://jcho92.github.io/Word-Guess-Game/"></iframe>
+            </div>
+            <div id="giphyModal" class="modalMain">
+                <div class="close-div">
+                    <span class="close">&times;</span>
+                </div>
+
+                <iframe style="width:100%; height:500px;" src="https://jcho92.github.io/giphy/"></iframe>
+            </div>
+        </div>
+
+
+        <div class="body-3 animate-box bounce-up">
+            <div class="innerbody-3">
+                <a name="contact"></a>
+                <h2>Contact</h2>
+                <hr>
+                <form>
+                    <p>first name:</p>
+                    <input style="width:100%; height: 30px;" type="text" name="first name">
+                    <br>
+                    <p>last name</p>
+                    <input style="width:100%; height: 30px;" type="text" name="last name">
+                    <br>
+                    <p>comments</p>
+                    <input style="width: 100%; height: 80px;" type="text" name="comment">
+                    <p style="padding:10px;"></p>
+                    <input style="padding-top:10px; padding-bottom: 10px;" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
 
 
 
-<div class="footer1">&copy; copyright</div>
+
+    <div class="footer2">&copy; copyright</div>
+
+    <script>
+        // script for display
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+        // section for modal on clicks
+        var trivia = document.getElementById("trivia");
+        var starWars = document.getElementById("starWars");
+        var starcraft = document.getElementById("starcraft");
+        var giphy = document.getElementById("giphy");
+        var overlay = document.getElementById("overlay");
+        var triviaclose = document.getElementsByClassName("close")[0];
+        var starWarsclose = document.getElementsByClassName("close")[1];
+        var starcraftclose = document.getElementsByClassName("close")[2];
+        var giphyclose = document.getElementsByClassName("close")[3];
+        var triviamodal = document.getElementsByClassName("modalMain")[0];
+
+        trivia.onclick = function () {
+            triviaModal.style.display = "block";
+            overlay.style.display = "block";
+        }
+
+        starWars.onclick = function () {
+            starWarsModal.style.display = "block";
+            overlay.style.display = "block";
+        }
+        starcraft.onclick = function () {
+            starcraftModal.style.display = "block";
+            overlay.style.display = "block";
+        }
+        giphy.onclick = function () {
+            giphyModal.style.display = "block";
+            overlay.style.display = "block";
+        }
+        triviaclose.onclick = function () {
+            triviaModal.style.display = "none";
+            overlay.style.display = "none";
+            console.log(this);
+        }
+        starWarsclose.onclick = function () {
+            starWarsModal.style.display = "none";
+            overlay.style.display = "none";
+            console.log(this);
+        }
+
+        starcraftclose.onclick = function () {
+            starcraftModal.style.display = "none";
+            overlay.style.display = "none";
+            console.log(this);
+        }
+
+        giphyclose.onclick = function () {
+            giphyModal.style.display = "none";
+            overlay.style.display = "none";
+            console.log(this);
+        }
+
+        //end of on click functions
+        // scroll function
+        var $animation_elements = $('.animate-box');
+        var $window = $(window);
+
+        function check_if_in_view() {
+            var window_height = $window.height();
+            var window_top_position = $window.scrollTop();
+            var window_bottom_position = (window_top_position + window_height);
+
+            $.each($animation_elements, function () {
+                var $element = $(this);
+                var element_height = $element.outerHeight();
+                var element_top_position = $element.offset().top;
+                var element_bottom_position = (element_top_position + element_height);
+
+                //check to see if this current container is within viewport
+                if ((element_bottom_position >= window_top_position) &&
+                    (element_top_position <= window_bottom_position)) {
+                    $element.addClass('in-view');
+                } else {
+                    $element.removeClass('in-view');
+                }
+            });
+        }
+
+        $window.on('scroll resize', check_if_in_view);
+        $window.trigger('scroll');
+        //end of scroll functions
+
+    </script>
 </body>
+
 </html>
