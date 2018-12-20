@@ -198,6 +198,19 @@
                     <p class="popup-text">Choose your favourite gifs and the generator will find those gifs for
                         you!</p>
                 </div>
+                <div class="mySlides">
+                    <div class="left-demo">
+                        <img id="warhammer" class="demo" src="images/2018-12-20.png" style="width:100%">
+                    </div>
+                    <div class="right-demo">
+                        <p class="gitlink">Github link</p>
+                        <a class="gitA" href="https://github.com/jcho92/friend-finder">https://github.com/jcho92/friend-finder</a>
+                        <p class="gitlink">github demo link</p>
+                        <a class="gitA" href="https://secure-savannah-70676.herokuapp.com/">https://secure-savannah-70676.herokuapp.com/</a>
+                    </div>
+                    <h2>friend finder</h2>
+                    <p class="popup-text">Find your best friend in warhammer!</p>
+                </div>
                 <button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
                 <button class="display-right" onclick="plusDivs(1)">&#10095;</button>
             </div>
@@ -284,56 +297,56 @@
             x[slideIndex - 1].style.display = "block";
         }
         // section for modal on clicks
-        var trivia = document.getElementById("trivia");
-        var starWars = document.getElementById("starWars");
-        var starcraft = document.getElementById("starcraft");
-        var giphy = document.getElementById("giphy");
-        var overlay = document.getElementById("overlay");
-        var triviaclose = document.getElementsByClassName("close")[0];
-        var starWarsclose = document.getElementsByClassName("close")[1];
-        var starcraftclose = document.getElementsByClassName("close")[2];
-        var giphyclose = document.getElementsByClassName("close")[3];
-        var triviamodal = document.getElementsByClassName("modalMain")[0];
+        // var trivia = document.getElementById("trivia");
+        // var starWars = document.getElementById("starWars");
+        // var starcraft = document.getElementById("starcraft");
+        // var giphy = document.getElementById("giphy");
+        // var overlay = document.getElementById("overlay");
+        // var triviaclose = document.getElementsByClassName("close")[0];
+        // var starWarsclose = document.getElementsByClassName("close")[1];
+        // var starcraftclose = document.getElementsByClassName("close")[2];
+        // var giphyclose = document.getElementsByClassName("close")[3];
+        // var triviamodal = document.getElementsByClassName("modalMain")[0];
 
-        trivia.onclick = function () {
-            triviaModal.style.display = "block";
-            overlay.style.display = "block";
-        }
+        // trivia.onclick = function () {
+        //     triviaModal.style.display = "block";
+        //     overlay.style.display = "block";
+        // }
 
-        starWars.onclick = function () {
-            starWarsModal.style.display = "block";
-            overlay.style.display = "block";
-        }
-        starcraft.onclick = function () {
-            starcraftModal.style.display = "block";
-            overlay.style.display = "block";
-        }
-        giphy.onclick = function () {
-            giphyModal.style.display = "block";
-            overlay.style.display = "block";
-        }
-        triviaclose.onclick = function () {
-            triviaModal.style.display = "none";
-            overlay.style.display = "none";
-            console.log(this);
-        }
-        starWarsclose.onclick = function () {
-            starWarsModal.style.display = "none";
-            overlay.style.display = "none";
-            console.log(this);
-        }
+        // starWars.onclick = function () {
+        //     starWarsModal.style.display = "block";
+        //     overlay.style.display = "block";
+        // }
+        // starcraft.onclick = function () {
+        //     starcraftModal.style.display = "block";
+        //     overlay.style.display = "block";
+        // }
+        // giphy.onclick = function () {
+        //     giphyModal.style.display = "block";
+        //     overlay.style.display = "block";
+        // }
+        // triviaclose.onclick = function () {
+        //     triviaModal.style.display = "none";
+        //     overlay.style.display = "none";
+        //     console.log(this);
+        // }
+        // starWarsclose.onclick = function () {
+        //     starWarsModal.style.display = "none";
+        //     overlay.style.display = "none";
+        //     console.log(this);
+        // }
 
-        starcraftclose.onclick = function () {
-            starcraftModal.style.display = "none";
-            overlay.style.display = "none";
-            console.log(this);
-        }
+        // starcraftclose.onclick = function () {
+        //     starcraftModal.style.display = "none";
+        //     overlay.style.display = "none";
+        //     console.log(this);
+        // }
 
-        giphyclose.onclick = function () {
-            giphyModal.style.display = "none";
-            overlay.style.display = "none";
-            console.log(this);
-        }
+        // giphyclose.onclick = function () {
+        //     giphyModal.style.display = "none";
+        //     overlay.style.display = "none";
+        //     console.log(this);
+        // }
 
         //end of on click functions
         // scroll function
