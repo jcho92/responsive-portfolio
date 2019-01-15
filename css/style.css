@@ -47,7 +47,7 @@ li.header:hover {
     color: #050505;
 }
 
-a{
+.header_name{
     color:#fff;
     text-decoration: none;
 }
@@ -138,8 +138,7 @@ div.body{
     padding-left: 30px;
     padding-right:30px;
     padding-top:30px;
-    padding-bottom:30px;
-    width:100%; 
+    padding-bottom:30px; 
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
@@ -246,8 +245,9 @@ span.cat-table{
     top: 50%;
     left: 0%;
     width: 60px;
-    opacity: 0.5;;
+    opacity: 0.9;
     height: 50px;
+    border-radius: 55px;
 
 }
 .display-right{
@@ -255,8 +255,9 @@ span.cat-table{
     top: 50%;
     right: 0%;
     width: 60px;
-    opacity: 0.5;
+    opacity: 0.9;
     height: 50px;
+    border-radius: 55px;
     
 }
 /* modal css*/
@@ -272,9 +273,12 @@ span.cat-table{
 #giphyModal{
     display: none;
 }
+#warhammerModal{
+    display: none;
+}
 .modalMain{
     background-color:#efefee;
-    width: 1200px; 
+    width: 100%; 
     margin-left: auto;
     margin-right: auto;
     border: #dddddd 2px solid; 
@@ -284,6 +288,8 @@ span.cat-table{
     top:0;
     z-index: 2;
     overflow: scroll;
+    margin-top:50px;
+    height: 100%;
     
 }
 .close{
